@@ -3,13 +3,13 @@
 valores = []
 
 try:
-    for i in range(1, 3):
+    for i in range(1, 3): #O(N)
         valor = int(input())
         valores.append(valor)
 
     maior_elemento = valores[0]
 
-    for elemento in valores:
+    for elemento in valores: #O(N)
         if elemento > maior_elemento:
             maior_elemento = elemento
 
